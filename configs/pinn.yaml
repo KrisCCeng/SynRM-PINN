@@ -1,0 +1,26 @@
+# Model and Global Settings
+mode: "PINN"  # Options: "ANN", "SCN", "PINN"
+seed: 21
+
+# Data Configuration
+data:
+#  data_dir: "data/simulation/2000ideal"  # Data path, modify as needed
+  data_dir: "data/processed/ExDataset1"   # Data path, modify as needed
+  folders:
+    - "d_axis"
+    - "q_axis"
+    - "cross"
+  batch_size: 128
+  i_norm: 4.2144
+  psi_norm: 1.5
+
+# Training Configuration
+training:
+  epochs: 200
+  lr: 1e-2
+  dt: 1.0e-4
+  hidden_dim: [6, 4]  # Network hidden layers, adjust as needed
+  w_phys: 0.5        # <--- Physical loss weight (e.g., 0.025, 0.25, 0.5, etc.)
+  
+# python train.py --config pinn.yaml
+# python evaluate.py --config pinn.yaml
