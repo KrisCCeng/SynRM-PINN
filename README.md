@@ -93,7 +93,7 @@ The framework will automatically generate an `evaluation_metrics.csv` report and
 If you find this code or our paper useful for your research, please consider citing our work:
 
 ```bibtex
-@article{Zhang2026SynRM,
+@article{Ye2026SynRM,
   title={High-Precision Standstill Flux Linkage Identification for Synchronous Reluctance Motors Based on Gradient Projection and Implicit Inductance Modeling},
   author={Cheng Ye and Yankai Jia and Yusheng Song and Changxing Guo and Chuanwen Shen},
   journal={Submitted to Journal},
