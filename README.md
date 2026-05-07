@@ -2,6 +2,8 @@
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI:10.5281/zenodo.20073909](https://zenodo.org/badge/1228229558.svg)](https://doi.org/10.5281/zenodo.20073908)
+https://zenodo.org/badge/1228229558.svg
 
 This repository contains the official PyTorch implementation for the paper:  
 **"High-Precision Standstill Flux Linkage Identification for Synchronous Reluctance Motors Based on Gradient Projection and Implicit Inductance Modeling"**
